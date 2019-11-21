@@ -1,0 +1,705 @@
+
+@font-face{
+  font-family: RobotoRegular;
+  src:url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+  font-family: Rajdhani;
+  src:url(../fonts/Rajdhani-Regular.ttf);
+}
+
+
+/* скрываем чекбокс */
+#menu__toggle {
+  opacity: 0;
+}/* стилизуем кнопку */
+.menu__btn {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center;  /* центрируем содержимое кнопки */
+  position: absolute;
+  top: 8px;
+  left: 35px;
+   width: 65px;
+  height: 28px;  cursor: pointer;
+  z-index: 2;
+}/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: relative;  width: 100%;
+  height: 3px;  background-color: #fcfcfc;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+/* контейнер меню */
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;  width: 300px;
+  height: 75%;  margin: 0;
+
+
+
+  padding: 80px 0;  list-style: none;
+  text-align: center;  background-color:#1b7fd0;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  z-index: 1;
+}/* элементы меню */
+.menu__item {
+ display: block;
+ 
+  padding: 12px 24px;  color: #333;  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;  text-decoration: none;
+}
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}.menu__box {
+  transition-duration: .25s;
+}.menu__item {
+  transition-duration: .25s;
+}
+
+
+
+
+body{
+  width: 1600px;
+  margin: 0 auto;
+}
+.bg-top{
+        background-image: url(../img/BgDark.png);
+    color: white;
+   align-content: center;
+}
+.bg-top p{
+  font-size: 18px;
+  font-family: "RobotoRegular";
+  color: rgb(202, 221, 234);
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+
+}
+
+.bg-top a{
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.091;
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+.menu img{
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+}
+
+.menu{
+  padding: 0;
+  padding-top: 5px;
+  background-color: #1b7fd0;
+ text-transform: uppercase;
+ 
+  list-style-type: none;
+  
+ 
+}
+.menu h3{
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.091;
+  text-align: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+}
+
+.menu__item{
+  margin-left: 10px;
+  margin-right: 10px;
+/* border-left:solid 1px white;*/
+  
+}
+.menu__item:first-child{
+
+border:none;
+}
+
+
+
+
+.menu__item a{
+  
+  font-size: 20px;
+  font-family: "RobotoRegular";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.5;
+  /*text-align: right;*/
+  padding-left: 16px;
+  padding-right: 1px;
+  text-decoration: none;
+  
+  
+}
+.menu__item a:hover{
+   color:#1b7fd0;
+  background-color: rgb(255, 255, 255);
+ 
+}
+
+.baner{
+  margin: 0 auto;
+  padding-top: 30px;
+  height: 400px;
+  
+   background-image: url(../img/baner.jpg);
+   z-index: 0;
+}
+.nav-link {
+  font-size: 1rem;
+  font-family: "RobotoRegular";
+  color: rgb(202, 221, 234);
+}
+
+
+
+
+
+
+.bg{
+ padding-bottom: 30px;
+  background-image: url(../img/Bg.png);
+
+color: white;
+}
+.bg h2{
+  font-size: 28px;
+  font-family: "RobotoRegular";
+  color: rgb(27, 127, 208);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.1;
+  border: solid 1px #caddea;
+  background-color: #caddea;
+  text-align: left;
+  margin-top:53px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.bg h5{
+  
+  font-size: 16px;
+  font-family: "RobotoRegular";
+  color:rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.4;
+ text-align: left;
+ padding-top: 10px;
+}
+
+.content-text{
+  font-size: 31px;
+  font-family: "RobotoRegular";
+  text-align: right;
+  margin-left: -77px;
+  margin-right: 77px;
+}
+.bg h6{
+ font-size: 25px;
+ background-color: #dd0000;
+ font-family: "RobotoRegular";
+ text-align: center;
+ padding-top: 5px;
+}
+.bg h4{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*.bg p{
+  font-size: 25px;
+  font-family: "RobotoRegular";
+  color: rgb(7, 93, 162);
+  text-transform: uppercase;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  border: solid 1px #caddea;
+  background-color: #caddea;
+  text-align: right;
+  margin-top:54px;
+  margin-bottom: 8px;
+ 
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*вставка*/
+
+
+.tab {
+  
+  
+  background-color: #f4f6fa;
+  height: 460px;
+}
+
+/* Style the buttons inside the tab */
+.tab li {
+  background-color: inherit;
+  font-size: 18px;
+  font-family: "RobotoRegular";
+  color: rgb(27, 127, 208);
+  text-transform: uppercase;
+  padding: 0px 5px  0 2px;
+  font-weight: bold;
+  
+ 
+  cursor: pointer;
+  list-style-type: none;
+ background-color:#f4f6fa;
+margin-bottom: 20px;
+ line-height: 1.1;
+ position: relative;
+ height: 55px;
+ border-bottom: 1px solid  rgb(27, 127, 208);
+ vertical-align: text-top;
+}
+
+/* Change background color of buttons on hover */
+.tab li:hover, .tab li:hover .angle div {
+  font-size: 22px;
+  font-family: "RobotoRegular";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: bold;
+  background-color: #075da2;
+  
+  
+  
+}
+.number{
+  font-size: 34px;
+  font-family: "Rajdhani";
+  color: rgb(202, 221, 234);
+
+  font-weight: bold;
+  text-transform: uppercase; 
+  
+}
+
+.number:hover{
+  font-size: 30px;
+  font-family: "Rajdhani";
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  background-color: #075da2;
+}
+
+/* Create an active/current "tab button" class */
+.tab li.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+
+ width:420px;
+   
+padding: 10px 12px;
+height: 415px;
+background-color: rgb(255, 255, 255);
+  box-shadow: 2px 3.464px 7px 0px rgba(155, 182, 190, 0.75);
+font-size: 18px;
+  font-family: Arial;
+  line-height: 1.2;
+  text-align: justify;
+}
+.tabcontent h6{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial;
+  color: rgb(27, 127, 208);
+}
+.tabcontent p{
+  padding-top: 10px;
+  
+}
+
+
+
+
+/*вставка*/
+
+
+
+
+
+
+.rectangle23{
+  width: 460px;
+  height: 350px;
+  border: solid 1px #caddea;
+  padding-top: 30px;
+  padding-left: 20px;
+  margin-left: -6px;
+}
+
+
+
+
+
+
+
+.d10 {
+  width: 0; 
+  height: 0;
+  border-top: 22px solid transparent;
+  border-left: 44px solid #075da2;
+  border-bottom: 22px solid transparent;
+  position: relative;
+  top:-53px;
+  left: 654px;
+  }
+
+
+
+.rectangle23 p{
+  font-size: 18px;
+  font-family: Arial;
+  line-height: 1.4;
+  text-align: justifyLeft;
+}
+
+.center4 {
+background-image: url(../img/Layer8.png);
+}
+.center4 h6{
+  margin: 0 auto;
+  font-size: 28px;
+  font-family: "RobotoRegular";
+  color:#caddea;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.143;
+  border: solid 1px #dd0000;
+  background-color: #dd0000;
+  text-align: center;
+  margin-top:30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom: 50px;
+}
+
+
+.center1{
+  padding-top: 15px;
+}
+.center1 h4{
+  text-align: left;
+  font-size: 26px;
+}
+.center1 p{
+  
+  font-size: 20px;
+}
+#inputdol{
+  margin-top: -10px;
+}
+#inputeuro{
+  margin-top: -10px;
+ 
+}
+
+
+.footer{
+  padding-top: 15px;
+  font-size: 13px;
+  font-family: Arial;
+  background-image: url(../img/Rectangle10.png);
+  color: white;
+  line-height: 5px;
+}
+.debit{
+  padding: 15px;
+  background-image: url(../img/Rectangle25.png);
+  font-size: 25px;
+}
+.fa-twitter{
+  color: #013056;
+}
+
+.line3{
+  width: 255px;
+}
+.line1{
+  width: 22%;
+  height: 2px;
+  border: solid 1px rgb(202, 221, 234); 
+}
+.line{
+  width: 50%;
+  height: 2px;
+  border: solid 1px rgb(202, 221, 234);
+}
+.line2{
+  border: solid 1px rgb(187, 228, 255);
+}
+
+.footertop{
+  padding: 0 0;
+  margin-left: 33px;
+}
+
+ul.menubottom{
+  padding-top: 20px;
+  font-family: "RobotoRegular"; 
+  text-align: center;
+  line-height: 20px;
+}
+
+/*a.nav-link{
+  font-family: "RobotoRegular";
+  text-transform: uppercase;
+  font-size: 14px;
+  border-left:1px solid #bbb;
+
+  
+}*/
+
+
+ul.menubottom>li {
+  font-family: "RobotoRegular";
+  color: rgb(187, 228, 255); 
+  text-transform: uppercase;
+  font-size: 14px;
+  display:inline;
+  border-left:1px solid #bbb;
+  padding:0 12px 0 12px;
+  }
+  ul.menubottom>li a{
+    font-family: "RobotoRegular";
+  color: white; 
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-top: 15px;
+  }
+
+  ul.menubottom>li:first-child {
+  border:none;
+  }
+
+.footer h6{
+  padding-top: 15px; 
+  font-size: 16px;
+  font-family: "ArialNarrow";
+  color: rgb(202, 221, 234);
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+
+.mainBody{
+  /*background: transparent;*/
+  /*border: 1px solid #28a745;*/
+  border-radius: 10px;
+  margin-bottom: 15px;}
+
+.blocks{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+ /* height: 350px;*/
+  line-height: 30px;
+}
+.block4{
+  margin-top: 10px;
+  background: transparent;
+  border: 1px solid rgb(47, 255, 220);
+  /*border-radius: 10px;*/
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+ /*justify-content: space-between;*/
+}
+.block5{
+  padding-top: 10px;
+  padding-left: 50px;
+ font-size: 14px;
+}
+.business_news{
+  color:#EAE7DC;
+   
+}
+
+h3{
+  color:  rgb(47, 255, 220);
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.news_img{  
+  width: 500px;
+  height:300px;
+}
+
+.news_description{
+  color: white;
+  font-size: 14px;
+}
+
+.news_author{
+  display: inline-block;
+  color: #74f50a;
+  font-size: 12px;
+}
+
+.news_publishedAt{
+  display: inline-block;
+  color: white;
+}
+
+#сurrency{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 850px;
+  position: relative;
+  margin: auto;
+  margin-top: -25px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

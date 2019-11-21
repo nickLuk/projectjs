@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  
+
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <style type="text/css">
+    </style> 
+    <title>Головна</title>  
+</head>
+ <body>
+ <!--  <div class="container-fluid bg-top">
+   <div class="container">
+     <div class="row">
+       <p class="col-6">Sales toll free: 1 (044) 121-0506</p>
+       <p class="col-6">Support toll free: 1 (044) 121-0507</p>
+       
+
+     
+</div>
+
+   </div>
+  </div>-->
+
+  <div class="container-fluid menu">
+      <div class="container">
+        <div class="row">
+
+
+<!--Menu gamburger-->
+
+
+		<div class="col-6 hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>  <ul class="menu__box">
+        <li class="menu__item"><a href="#"> Валюта</a></li>
+        <li class="menu__item"><a href="#">Депозити</a></li>
+        <li class="menu__item"><a href="#">Кредити</a></li>
+        <li class="menu__item"><a href="#">Банки</a></li>
+        <li class="menu__item"><a href="#">Страхування</a></li>
+        <li class="menu__item"><a href="#">Нерухомість</a></li>
+        <li class="menu__item"><a href="#">Телекомe</a></li>
+        <li class="menu__item"><a href="#">Індекси</a></li>
+        <li class="menu__item"><a href="#">Біржа</a></li>
+
+    </ul>
+  </div>
+    <!--Menu gamburger-->
+  
+
+         <h3 class="col-3">(044) 121-0506</h3>
+       
+       <h3 class="col-3">(044) 121-0507</h3>
+       
+
+     
+  </div>
+      </div>
+     </div>
+
+    
+<div class="baner">
+      <div class="container logo">
+
+               
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img/sl1.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img/sl2.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img/sl3.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+     
+
+
+
+<!--<img class="col-6" src="img/logo.jpg">  -->
+<div class="row">
+    
+</div>
+
+
+     
+     </div>
+</div> 
+  
+<div class="container-fluid center1">
+  <div class="container">
+<div class="row justify-content-center convert">
+<h4>Калькулятор валют&nbsp&nbsp&nbsp </h4>
+<p>
+  <label>$</label>
+  <input type="number" id="inputdol" placeholder="$" oninput="moneyConverterdD(this.value)" onchange="moneyConverterD(this.value)">
+</p>
+<p> &nbspГрн:<span id="outputgrn"></span></p>
+
+<p>
+    <label>&nbsp&nbsp&nbsp&nbsp&nbspEuro</label>
+    <input type="number" id="inputeuro" placeholder="Euro" oninput="moneyConverteE(this.value)" onchange="moneyConverterE(this.value)">
+  </p>
+  <p>&nbspГрн:<span id="outputgrne"></span></p>
+
+
+
+
+ 
+</div> </div>
+
+
+</div>
+
+
+
+
+   <div class="container-fluid bg">
+      <div class="container mainBody">
+
+          <div class="row blocks">
+              
+              <div class="col-8 block4">
+                  <div class="label">НОВИНИ БІЗНЕСУ</div>
+                  <div id="business"></div>
+              </div>
+              <div class="col-4 block5 justify-content-center">
+                  <h4>Курс гривні</h4>
+              <!--<button>Show</button>-->
+              <table id="сurrency"></table>
+            </div>
+          </div>
+ 
+  
+</div>
+     
+     
+    </div>
+        
+      <div class="container-fluid center1">
+          <div class="container">
+       <div class="row">
+        <canvas class="col-12" id="myChart"></canvas> 
+
+
+        </div>
+      
+      </div>
+    
+
+</div>
+
+
+    <div class="container-fluid debit">
+      <div class="container">
+    <div class="row">
+        <img class="col-6" src="img/banks.png">  
+        <a class="col-1 offset-2" href="#"><i class="fab fa-facebook-f"></i></a>
+       <a class="col-1" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="col-1" href="#"><i class="fab fa-pinterest"></i></a> 
+      
+      </div> </div></div>
+
+<div class="container-fluid footer">
+<div class="container">
+  
+
+
+<div class="row">
+  <div class="line">
+
+  </div>
+  <div class="line">
+
+  </div>
+</div>
+<div class="row">
+  <nav class="col-12" >
+   <div>
+  <ul class="menubottom ">
+      <li><a href="#" >Валюта</a></li>
+      <li><a href="#" >Депозити</a></li>
+      <li><a href="#" >Кредити</a></li>
+      <li><a href="#" >Банки</a></li>
+      <li><a href="#" >Страхуання</a></li>
+      <li><a href="#" >Нерухомість</a></li>
+      <li><a href="#" >Телеком</a></li>
+      <li><a href="#" >Біржа</a></li>
+      <li><a href="#" >Індекси</a></li>
+      <li><a href="#" >Технології</a></li>
+    </ul>
+</div>
+
+  </nav>
+  </div>
+  <h6>Lukyanyk M 2019</h6>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+
+ </html>

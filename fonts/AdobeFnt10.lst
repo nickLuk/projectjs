@@ -1,0 +1,206 @@
+%!Adobe-FontList 1.10
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Black
+FamilyName:Roboto
+StyleName:Black
+FullName:Roboto Black
+WritingScript:Roman
+OutlineFileName:C:\Даша\Курси Html\psd\Bestwritinghelp_org\Element\Font\Roboto-Black.ttf
+DataFormat:sfntData
+FileLength:163488
+FileModTime:1499032466
+WeightClass:900
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Bold
+FamilyName:Roboto
+StyleName:Bold
+FullName:Roboto Bold
+WritingScript:Roman
+OutlineFileName:C:\Даша\Курси Html\psd\Bestwritinghelp_org\Element\Font\Roboto-Bold.ttf
+DataFormat:sfntData
+FileLength:162464
+FileModTime:1499032466
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-BoldItalic
+FamilyName:Roboto
+StyleName:Bold Italic
+FullName:Roboto Bold Italic
+WritingScript:Roman
+OutlineFileName:C:\Даша\Курси Html\psd\Bestwritinghelp_org\Element\Font\Roboto-BoldItalic.ttf
+DataFormat:sfntData
+FileLength:163644
+FileModTime:1499032468
+WeightClass:700
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Light
+FamilyName:Roboto
+StyleName:Light
+FullName:Roboto Light
+WritingScript:Roman
+OutlineFileName:C:\Даша\Курси Html\psd\Bestwritinghelp_org\Element\Font\Roboto-Light.ttf
+DataFormat:sfntData
+FileLength:162420
+FileModTime:1499032468
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Medium
+FamilyName:Roboto
+StyleName:Medium
+FullName:Roboto Medium
+WritingScript:Roman
+OutlineFileName:C:\Даша\Курси Html\psd\Bestwritinghelp_org\Element\Font\Roboto-Medium.ttf
+DataFormat:sfntData
+FileLength:162588
+FileModTime:1499032468
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-MediumItalic
+FamilyName:Roboto
+StyleName:Medium Italic
+FullName:Roboto Medium Italic
+WritingScript:Roman
+OutlineFileName:C:\Даша\Курси Html\psd\Bestwritinghelp_org\Element\Font\Roboto-MediumItalic.ttf
+DataFormat:sfntData
+FileLength:165636
+FileModTime:1499032468
+WeightClass:500
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Regular
+FamilyName:Roboto
+StyleName:Regular
+FullName:Roboto
+WritingScript:Roman
+OutlineFileName:C:\Даша\Курси Html\psd\Bestwritinghelp_org\Element\Font\Roboto-Regular.ttf
+DataFormat:sfntData
+FileLength:162876
+FileModTime:1499032468
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Thin
+FamilyName:Roboto
+StyleName:Thin
+FullName:Roboto Thin
+WritingScript:Roman
+OutlineFileName:C:\Даша\Курси Html\psd\Bestwritinghelp_org\Element\Font\Roboto-Thin.ttf
+DataFormat:sfntData
+FileLength:163132
+FileModTime:1499032470
+WeightClass:250
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-ThinItalic
+FamilyName:Roboto
+StyleName:Thin Italic
+FullName:Roboto Thin Italic
+WritingScript:Roman
+OutlineFileName:C:\Даша\Курси Html\psd\Bestwritinghelp_org\Element\Font\Roboto-ThinItalic.ttf
+DataFormat:sfntData
+FileLength:168276
+FileModTime:1499032466
+WeightClass:250
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-Bold
+FamilyName:Roboto Condensed
+StyleName:Bold
+FullName:Roboto Condensed Bold
+WritingScript:Roman
+OutlineFileName:C:\Даша\Курси Html\psd\Bestwritinghelp_org\Element\Font\RobotoCondensed-Bold.ttf
+DataFormat:sfntData
+FileLength:161748
+FileModTime:1499032468
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-Light
+FamilyName:Roboto Condensed
+StyleName:Light
+FullName:Roboto Condensed Light
+WritingScript:Roman
+OutlineFileName:C:\Даша\Курси Html\psd\Bestwritinghelp_org\Element\Font\RobotoCondensed-Light.ttf
+DataFormat:sfntData
+FileLength:160748
+FileModTime:1499032470
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-Regular
+FamilyName:Roboto Condensed
+StyleName:Regular
+FullName:Roboto Condensed
+WritingScript:Roman
+OutlineFileName:C:\Даша\Курси Html\psd\Bestwritinghelp_org\Element\Font\RobotoCondensed-Regular.ttf
+DataFormat:sfntData
+FileLength:161524
+FileModTime:1499032468
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
